@@ -1,0 +1,83 @@
+
+body { font-family: Arial, sansserif;/* Рубленый шрифт */
+       background: #FFEBCD;
+       background-attachment: fixed;
+       }
+
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 0px 0px 0px 0px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
+
+   .sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+   }
+a:hover{
+  color: #FF00FF; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+.cvet{
+  background: #FFFF00; 
+  border: solid 5px #0000FF; 
+  padding: 10px;
+  color: #8B0000;
+  }
+.spn {
+font-style:italic;
+text-decoration:italic;
+background:#ff8800;
+}
+p{
+    text-indent: 20px;
+  }
+.cvet1{
+background: #FFFF00; 
+border: solid 5px #0000FF; 
+padding: 10px;
+}
+#cvet2{
+background:#ffcc00;
+}
+#cvet3{
+background:#800080;
+}
+#cvet4{
+background:#4B0082;
+}
+#cvet5{
+background:#708090;
+}
+h1{
+    color: #1E90FF;
+  }
+
+.scroll-table{
+    width: 50%;
+  overflow: auto;
+  height: 500px;
+  }
+
+  #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 30%;
+  font-size: 20px;
+  padding: 1px 20px 1px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  width: 60%;
+  border: 5px solid #696969;
+  font-size: 18px;
+}
+#myTable tr.header{
+  background-color: #FF8C00;
+  } 
+#myTable tr:hover {
+  background-color: #f1f1f1;
+}
